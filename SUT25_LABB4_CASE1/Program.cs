@@ -14,7 +14,7 @@ namespace SUT25_LABB4_CASE1
             // och att elseif ska separeras 'else if'
             int number = 2;
 
-            if (number > 3)
+            if (number >= 3) //lade till en '=' tecken som också saknades
             {
                 // Console.WriteLine behöver ett ';' i endan 
                 Console.WriteLine("Talet är större än tre");
